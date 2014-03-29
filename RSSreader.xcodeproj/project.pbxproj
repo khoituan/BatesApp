@@ -16,6 +16,7 @@
 		357FBCE41712BB70000B40F4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357FBCE21712BB70000B40F4 /* MainStoryboard.storyboard */; };
 		357FBCE71712BB70000B40F4 /* APPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357FBCE61712BB70000B40F4 /* APPMasterViewController.m */; };
 		357FBCEA1712BB70000B40F4 /* APPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357FBCE91712BB70000B40F4 /* APPDetailViewController.m */; };
+		73754EC018E65E0400013619 /* APPDaysOfWeek.m in Sources */ = {isa = PBXBuildFile; fileRef = 73754EBF18E65E0400013619 /* APPDaysOfWeek.m */; };
 		73C7DC4918D4F12E0027CF61 /* APPListOfCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C7DC4818D4F12E0027CF61 /* APPListOfCategoriesViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		357FBCE61712BB70000B40F4 /* APPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPMasterViewController.m; sourceTree = "<group>"; };
 		357FBCE81712BB70000B40F4 /* APPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPDetailViewController.h; sourceTree = "<group>"; };
 		357FBCE91712BB70000B40F4 /* APPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPDetailViewController.m; sourceTree = "<group>"; };
+		73754EBE18E65E0400013619 /* APPDaysOfWeek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPDaysOfWeek.h; sourceTree = "<group>"; };
+		73754EBF18E65E0400013619 /* APPDaysOfWeek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPDaysOfWeek.m; sourceTree = "<group>"; };
 		73C7DC4718D4F12E0027CF61 /* APPListOfCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPListOfCategoriesViewController.h; sourceTree = "<group>"; };
 		73C7DC4818D4F12E0027CF61 /* APPListOfCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPListOfCategoriesViewController.m; sourceTree = "<group>"; };
 		73D1A86A18E50703009A3A5D /* LaunchImageR4(iPhone5).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImageR4(iPhone5).png"; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				357FBCE21712BB70000B40F4 /* MainStoryboard.storyboard */,
 				73C7DC4718D4F12E0027CF61 /* APPListOfCategoriesViewController.h */,
 				73C7DC4818D4F12E0027CF61 /* APPListOfCategoriesViewController.m */,
+				73754EBE18E65E0400013619 /* APPDaysOfWeek.h */,
+				73754EBF18E65E0400013619 /* APPDaysOfWeek.m */,
 				357FBCE51712BB70000B40F4 /* APPMasterViewController.h */,
 				357FBCE61712BB70000B40F4 /* APPMasterViewController.m */,
 				357FBCE81712BB70000B40F4 /* APPDetailViewController.h */,
@@ -181,6 +186,7 @@
 				357FBCDB1712BB70000B40F4 /* APPAppDelegate.m in Sources */,
 				357FBCE71712BB70000B40F4 /* APPMasterViewController.m in Sources */,
 				357FBCEA1712BB70000B40F4 /* APPDetailViewController.m in Sources */,
+				73754EC018E65E0400013619 /* APPDaysOfWeek.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
