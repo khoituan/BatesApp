@@ -11,6 +11,7 @@
 @interface APPMasterViewController : UITableViewController <NSXMLParserDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
-@property (strong, nonatomic)          NSString *urlText;
-@property (strong, nonatomic)          NSString *urlToNextScreen;
+@property (weak, nonatomic)          NSString *urlText;
+
+
 @end

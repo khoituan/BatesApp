@@ -7,10 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "APPMasterViewController.h"
 @interface APPDetailViewController : UIViewController
 
-@property (copy, nonatomic) NSString *url;
-@property (strong, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic)          NSString *storyTitle;
+@property (weak, nonatomic)          NSString *storyDescription;
+@property (weak, nonatomic)          NSString *storyAuthor;
+@property (weak, nonatomic)          NSString *storyCategory;
+@property (weak, nonatomic)          NSString *storyPubDate;
+@property (weak, nonatomic)          NSString *storyLink;
+@property (strong, nonatomic) IBOutlet UITextField *textTitle;
+@property (strong, nonatomic) IBOutlet UITextField *textDescription;
+@property (strong, nonatomic) IBOutlet UITextField *textAuthor;
+@property (strong, nonatomic) IBOutlet UITextField *textCategory;
+@property (strong, nonatomic) IBOutlet UITextField *textPubDate;
+@property (strong, nonatomic) IBOutlet UITextField *textLink;
 
 @end

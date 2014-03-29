@@ -112,6 +112,21 @@
  }
  */
 
+/*
+//Before pressing the cell
+- (NSIndexPath *)tableView:(UITableView *)tableView  willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Navigation logic
+    int storyIndex = [indexPath indexAtPosition: [indexPath length] - 1];
+    id detail = [feeds objectAtIndex:storyIndex];
+    NSLog(@"HIIIIIII %@", [detail objectForKey:@"link"]);
+    [self setStoryTitle:[detail objectForKey:@"title"]];
+    [self setStoryLink:[detail objectForKey:@"link"]];
+    NSLog(@"This is the STORY LINK %@,", _storyLink);
+    
+    return indexPath;
+}
+*/
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 }
@@ -204,16 +219,22 @@
 }
 
 
+
+//This happens before didSelectRowAtIndexPath
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    NSLog(@"LDSKJFLKDSJFSDKLFJSLDKFSDF");
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSLog(@"HELLLDOSDOFJSDOFSDJFJSDFOSDFOSDJFOJSDFLJSDLJFLS");
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSMutableString *string = [feeds[indexPath.row] objectForKey: @"link"];
-        NSLog(string);
-        [[segue destinationViewController] setUrl:string];
+        id story = feeds[indexPath.row];
+        //Setting up the next screen's details
+        [[segue destinationViewController] setStoryTitle:[story objectForKey:@"title"]];
+        [[segue destinationViewController] setStoryDescription:[story objectForKey:@"description"]];
+        [[segue destinationViewController] setStoryAuthor:[story objectForKey:@"author"]];
+        [[segue destinationViewController] setStoryCategory:[story objectForKey:@"category"]];
+        [[segue destinationViewController] setStoryPubDate:[story objectForKey:@"pubDate"]];
+        [[segue destinationViewController] setStoryLink:[story objectForKey:@"link"]];
+
     }
-        
+    NSLog(@"Moving to the next screen.");
 }
 
 @end

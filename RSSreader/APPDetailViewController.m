@@ -7,6 +7,7 @@
 //
 
 #import "APPDetailViewController.h"
+#import "APPMasterViewController.h"
 
 @implementation APPDetailViewController
 
@@ -15,10 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSURL *myURL = [NSURL URLWithString: [self.url stringByAddingPercentEscapesUsingEncoding:
-                                          NSUTF8StringEncoding]];
-    NSURLRequest *request = [NSURLRequest requestWithURL:myURL];
-    [self.webView loadRequest:request];
+
+    NSLog(@"Moving to story screen with link %@", _storyLink);
+    [self textTitle].text=_storyTitle;
+    [self textDescription].text=_storyDescription;
+    [self textAuthor].text=_storyAuthor;
+    [self textCategory].text=_storyCategory;
+    [self textPubDate].text=_storyPubDate;
+    [self textLink].text=_storyLink;
+    NSLog(@"End setting up the story screen");
+    
 }
 
 @end
