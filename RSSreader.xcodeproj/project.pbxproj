@@ -16,7 +16,9 @@
 		357FBCE41712BB70000B40F4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357FBCE21712BB70000B40F4 /* MainStoryboard.storyboard */; };
 		357FBCE71712BB70000B40F4 /* APPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357FBCE61712BB70000B40F4 /* APPMasterViewController.m */; };
 		357FBCEA1712BB70000B40F4 /* APPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357FBCE91712BB70000B40F4 /* APPDetailViewController.m */; };
-		73754EC018E65E0400013619 /* APPDaysOfWeek.m in Sources */ = {isa = PBXBuildFile; fileRef = 73754EBF18E65E0400013619 /* APPDaysOfWeek.m */; };
+		7329BBA018F0D63600A29593 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7329BB9F18F0D63600A29593 /* Images.xcassets */; };
+		734A2BF118E793C900BDB009 /* APPDaysOfWeek.m in Sources */ = {isa = PBXBuildFile; fileRef = 734A2BF018E793C900BDB009 /* APPDaysOfWeek.m */; };
+		73AF27EC18F8A33D006D83A3 /* APPMenuOfDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AF27EB18F8A33D006D83A3 /* APPMenuOfDay.m */; };
 		73C7DC4918D4F12E0027CF61 /* APPListOfCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C7DC4818D4F12E0027CF61 /* APPListOfCategoriesViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -36,12 +38,13 @@
 		357FBCE61712BB70000B40F4 /* APPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPMasterViewController.m; sourceTree = "<group>"; };
 		357FBCE81712BB70000B40F4 /* APPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPDetailViewController.h; sourceTree = "<group>"; };
 		357FBCE91712BB70000B40F4 /* APPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPDetailViewController.m; sourceTree = "<group>"; };
-		73754EBE18E65E0400013619 /* APPDaysOfWeek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPDaysOfWeek.h; sourceTree = "<group>"; };
-		73754EBF18E65E0400013619 /* APPDaysOfWeek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPDaysOfWeek.m; sourceTree = "<group>"; };
+		7329BB9F18F0D63600A29593 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		734A2BEF18E793C900BDB009 /* APPDaysOfWeek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPDaysOfWeek.h; sourceTree = "<group>"; };
+		734A2BF018E793C900BDB009 /* APPDaysOfWeek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPDaysOfWeek.m; sourceTree = "<group>"; };
+		73AF27EA18F8A33D006D83A3 /* APPMenuOfDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APPMenuOfDay.h; path = ../APPMenuOfDay.h; sourceTree = "<group>"; };
+		73AF27EB18F8A33D006D83A3 /* APPMenuOfDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APPMenuOfDay.m; path = ../APPMenuOfDay.m; sourceTree = "<group>"; };
 		73C7DC4718D4F12E0027CF61 /* APPListOfCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPListOfCategoriesViewController.h; sourceTree = "<group>"; };
 		73C7DC4818D4F12E0027CF61 /* APPListOfCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPListOfCategoriesViewController.m; sourceTree = "<group>"; };
-		73D1A86A18E50703009A3A5D /* LaunchImageR4(iPhone5).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImageR4(iPhone5).png"; sourceTree = "<group>"; };
-		73D7CB3B18E508BD0036F6AD /* LaunchImage2xHD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage2xHD.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +64,6 @@
 		357FBCBE1712BB70000B40F4 = {
 			isa = PBXGroup;
 			children = (
-				73D7CB3B18E508BD0036F6AD /* LaunchImage2xHD.png */,
 				357FBCD01712BB70000B40F4 /* RSSreader */,
 				357FBCC91712BB70000B40F4 /* Frameworks */,
 				357FBCC81712BB70000B40F4 /* Products */,
@@ -89,17 +91,20 @@
 		357FBCD01712BB70000B40F4 /* RSSreader */ = {
 			isa = PBXGroup;
 			children = (
+				357FBCE21712BB70000B40F4 /* MainStoryboard.storyboard */,
+				73AF27EA18F8A33D006D83A3 /* APPMenuOfDay.h */,
+				73AF27EB18F8A33D006D83A3 /* APPMenuOfDay.m */,
+				734A2BEF18E793C900BDB009 /* APPDaysOfWeek.h */,
+				734A2BF018E793C900BDB009 /* APPDaysOfWeek.m */,
 				357FBCD91712BB70000B40F4 /* APPAppDelegate.h */,
 				357FBCDA1712BB70000B40F4 /* APPAppDelegate.m */,
-				357FBCE21712BB70000B40F4 /* MainStoryboard.storyboard */,
 				73C7DC4718D4F12E0027CF61 /* APPListOfCategoriesViewController.h */,
 				73C7DC4818D4F12E0027CF61 /* APPListOfCategoriesViewController.m */,
-				73754EBE18E65E0400013619 /* APPDaysOfWeek.h */,
-				73754EBF18E65E0400013619 /* APPDaysOfWeek.m */,
 				357FBCE51712BB70000B40F4 /* APPMasterViewController.h */,
 				357FBCE61712BB70000B40F4 /* APPMasterViewController.m */,
 				357FBCE81712BB70000B40F4 /* APPDetailViewController.h */,
 				357FBCE91712BB70000B40F4 /* APPDetailViewController.m */,
+				7329BB9F18F0D63600A29593 /* Images.xcassets */,
 				357FBCD11712BB70000B40F4 /* Supporting Files */,
 			);
 			path = RSSreader;
@@ -112,7 +117,6 @@
 				357FBCD31712BB70000B40F4 /* InfoPlist.strings */,
 				357FBCD61712BB70000B40F4 /* main.m */,
 				357FBCD81712BB70000B40F4 /* RSSreader-Prefix.pch */,
-				73D1A86A18E50703009A3A5D /* LaunchImageR4(iPhone5).png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -169,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7329BBA018F0D63600A29593 /* Images.xcassets in Resources */,
 				357FBCD51712BB70000B40F4 /* InfoPlist.strings in Resources */,
 				357FBCE41712BB70000B40F4 /* MainStoryboard.storyboard in Resources */,
 			);
@@ -182,11 +187,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				357FBCD71712BB70000B40F4 /* main.m in Sources */,
+				73AF27EC18F8A33D006D83A3 /* APPMenuOfDay.m in Sources */,
 				73C7DC4918D4F12E0027CF61 /* APPListOfCategoriesViewController.m in Sources */,
+				734A2BF118E793C900BDB009 /* APPDaysOfWeek.m in Sources */,
 				357FBCDB1712BB70000B40F4 /* APPAppDelegate.m in Sources */,
 				357FBCE71712BB70000B40F4 /* APPMasterViewController.m in Sources */,
 				357FBCEA1712BB70000B40F4 /* APPDetailViewController.m in Sources */,
-				73754EC018E65E0400013619 /* APPDaysOfWeek.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +277,8 @@
 		357FBCEE1712BB70000B40F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RSSreader/RSSreader-Prefix.pch";
 				INFOPLIST_FILE = "RSSreader/RSSreader-Info.plist";
@@ -282,6 +290,8 @@
 		357FBCEF1712BB70000B40F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RSSreader/RSSreader-Prefix.pch";
 				INFOPLIST_FILE = "RSSreader/RSSreader-Info.plist";
